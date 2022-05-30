@@ -8,8 +8,11 @@ RUN mkdir __logger
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
 RUN sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 RUN apt-get -y update
+
+# install node
+RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt-get install -y google-chrome-stable
-RUN apt-get install -y nodejs npm
+RUN apt-get install -y nodejs
 
 # fix npm - not the latest version installed by apt-get
 RUN npm install -g npm
