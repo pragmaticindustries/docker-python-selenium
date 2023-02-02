@@ -1,2 +1,6 @@
 # docker-python-selenium
-Basew Dockerfile for testing
+Base Dockerfile for testing
+
+* NodeJS
+* Python
+* Chrome & Chromedriver
