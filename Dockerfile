@@ -1,7 +1,7 @@
 FROM python:3.9
 
-LABEL org.opencontainers.image.description="Testing image with chromedriver, nodejs, python"
 LABEL org.opencontainers.image.source=https://github.com/pragmaticindustries/docker-python-selenium
+LABEL org.opencontainers.image.description="Testing image with chromedriver, nodejs, python"
 LABEL org.opencontainers.image.licenses=MIT
 
 WORKDIR /app

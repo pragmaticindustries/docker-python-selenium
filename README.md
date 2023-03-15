@@ -8,9 +8,9 @@ Base Dockerfile for testing
 
 ## Updating this image
 
-This image is updated manually for now.
+The main branch and tags are built automatically.
 
-**Update image in GitHub registry:**
+**Update image in GitHub registry manually:**
 ```
 docker build -t ghcr.io/pragmaticindustries/docker-python-selenium:latest .
 docker push ghcr.io/pragmaticindustries/docker-python-selenium:latest
