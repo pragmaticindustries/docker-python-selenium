@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.11
 
 LABEL org.opencontainers.image.source=https://github.com/pragmaticindustries/docker-python-selenium
 LABEL org.opencontainers.image.description="Testing image with chromedriver, nodejs, python"
