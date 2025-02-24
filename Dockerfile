@@ -33,3 +33,5 @@ RUN apt-get install -y unixodbc
 ENV DISPLAY=:99
 
 RUN pip install --upgrade pip
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r /app/requirements.txt
