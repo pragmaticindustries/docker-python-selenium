@@ -1,9 +1,0 @@
-# specific input that might be needed for testing in specific repos, otherwise should be fine if not needed
-# fontawesomepro
---extra-index-url=https://dl.fontawesome.com/7EBF86FC-5EE1-4B58-ACF7-FB0937B76A52/fontawesome-pro/python/simple/
-fontawesomepro==6.4.0
-
-# Portal Theme
---extra-index-url=https://portal:uMjswqj3e3H57x@nexus.service.pragmaticindustries.com/repository/test-pypi/simple
-plc-server-openapi-client==0.2.0
-portal-toolmanagement-client==0.1.6
